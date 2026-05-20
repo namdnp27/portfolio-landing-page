@@ -407,7 +407,7 @@
 
 .footer-item li {
   color: #e8e7e7dd;
-  padding: 0 0 15px;
+  padding: 0 0 px 0;
   font-size: 18px;
 }
 
@@ -417,7 +417,7 @@
 }
 
 .footer-item i {
-  padding: 0 50px 0 0;
+  padding: 0 50px 20px 0;
   color: #e8e7e7dd;
 }
 
@@ -431,9 +431,23 @@
 
 @media only screen and (max-width: 600px) {
   body {
+    margin: 0;
+    padding: 0;
+  }
+  .top-menu {
+    background: red;
+    width: 100%;
+  }
+
+  .menu nav ul {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-self: center;
+    visibility: hidden;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }

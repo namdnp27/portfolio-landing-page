@@ -6,5 +6,9 @@
 
 function submitFunc() {
   let userName = document.getElementById("name").value;
-  window.alert(`Hello ${userName}! Your message has been succesfully submitted`);
+  if (userName.length >= 2) {
+    window.alert(`Hello ${userName}! Your message has been succesfully submitted`);
+  } else {
+    window.alert("Please enter your name");
+  }
 }
