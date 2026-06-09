@@ -1,0 +1,68 @@
+
+/* 
+.login-form,
+.signup-form {
+  padding: 50px 0 0 0;
+}
+
+.login-form form,
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form h2,
+.signup-form h2 {
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+label {
+  padding: 4px 0;
+  font-size: 20px;
+}
+
+input {
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 4px 8px;
+}
+
+span {
+  color: red;
+  display: inline-block;
+}
+
+button {
+  margin: 25px 0;
+  width: fit-content;
+  padding: 8px 6px;
+  border-radius: 5px;
+  border: 1px solid var(--button-color);
+  background: var(--button-color);
+  color: var(--primary-color);
+  box-shadow: 5px 2px 4px var(--button-color);
+}
+
+button:hover {
+  background: #142d4cd9;
+  box-shadow: 5px 2px 4px #142d4cd9;
+  transition: 0.3s ease;
+} */
+
+
+
+// script
+
+// const signUpButton = document.getElementById("signUp");
+// const signInButton = document.getElementById("signIn");
+// const container = document.getElementById("container");
+
+// signUpButton.addEventListener("click", () => {
+//   container.classList.add("right-panel-active");
+// });
+
+// signInButton.addEventListener("click", () => {
+//   container.classList.remove("right-panel-active");
+// });

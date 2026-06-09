@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -58,7 +58,7 @@
         <div class="about-section">
             <h3 class="section-header">About Me</h3>
             <div class="about-content">
-                <img src="/assets/flower.jpg" alt="Work Space">
+                <img src="/assets/password.png" alt="Work Space">
                 <div class="about-details">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus doloribus animi
                         reprehenderit.
@@ -131,9 +131,11 @@
 
             <div class="feature-content">
                 <div class="feature-grid-item">
-                    <img src="assets/flower.jpg" alt="Projects">
+                    <a href="password.html" target="_blank">
+                        <img src="assets/password.png" alt="Projects">
+                    </a>
                     <div class="feature-grid-item-content">
-                        <h4>E-Commerce Platform</h4>
+                        <h4>Random Password Generator</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laudantium doloremque nemo,
                             ratione voluptatum aliquid ipsum totam beatae fugiat explicabo.</p>
                         <div class="lang">
@@ -151,9 +153,11 @@
                     </div>
                 </div>
                 <div class="feature-grid-item">
-                    <img src="assets/universe.jpg" alt="Projects">
+                    <a href="signin.html" target="_blank">
+                        <img src="assets/form.png" alt="Projects">
+                    </a>
                     <div class="feature-grid-item-content">
-                        <h4>Mobile Fitness App</h4>
+                        <h4>Form Validation</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, odit deserunt! Obcaecati
                             voluptatibus, quae ipsa ab quis ipsam pariatur eius libero officiis? Et, quia nulla!</p>
                         <div class="lang">
@@ -170,7 +174,7 @@
                     </div>
                 </div>
                 <div class="feature-grid-item">
-                    <img src="assets/universe.jpg" alt="Projects">
+                    <img src="assets/password.png" alt="Projects">
                     <div class="feature-grid-item-content">
                         <h4>Analystics Dashboard</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi vero aliquam omnis excepturi
@@ -190,7 +194,7 @@
                     </div>
                 </div>
                 <div class="feature-grid-item">
-                    <img src="assets/flower.jpg" alt="Projects">
+                    <img src="assets/password.png" alt="Projects">
                     <div class="feature-grid-item-content">
                         <h4>Task Management Tool</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -208,7 +212,7 @@
                     </div>
                 </div>
                 <div class="feature-grid-item">
-                    <img src="assets/universe.jpg" alt="Projects">
+                    <img src="assets/password.png" alt="Projects">
                     <div class="feature-grid-item-content">
                         <h4>Brand Identify System</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -227,7 +231,7 @@
                     </div>
                 </div>
                 <div class="feature-grid-item">
-                    <img src="assets/flower.jpg" alt="Projects">
+                    <img src="assets/password.png" alt="Projects">
                     <div class="feature-grid-item-content">
                         <h4>Social Media Platform</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -295,8 +299,8 @@
                     <label for="message">Message</p></label>
                     <textarea type="message" id="message" name="message"></textarea>
 
-                    <button onclick="submitFunc()">Send Message</button>
-                    <span id="msg"></span>
+                    <button id="msgBtn">Send Message</button>
+                    <span id="error-msg"></span>
                 </div>
             </div>
         </div>

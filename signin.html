@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container">
+            <div class="form-icon">
+                <i class="fa-solid fa-user-lock fa-2xl"></i>
+            </div>
+            <div class="info-form">
+                <h2 class="header">Welcome Back</h2>
+                <p class="sub-header">Enter your credentials to access your dashboard.</p>
+                <form action="" class="form">
+                    <label for="signin-username">Email Adress</label>
+                    <input type="text" id="signin-username" name="signin-username" placeholder="name@company.com">
+                    <label for="signin-password">Password <a href="">Forgot password?</a></label>
+                    <input type="password" id="signin-password" name="signin-password" placeholder="password"
+                        minlength="8">
+                    <i class="fa-regular fa-eye input-eye" onclick="showPassword()"></i>
+                    <span id="error-msg"></span>
+                    <button id="signIn">Sign In</button>
+                </form>
+            </div>
+            <div class="line-text">
+                <p> OR CONTINUE WITH </p>
+            </div>
+            <div class="signin-options">
+                <button><i class="fa-brands fa-google"></i>Google</button>
+                <button><i class="fa-brands fa-github"></i>Github</button>
+            </div>
+            <p class="signup-link">Don't have an account? <a href="signUp.html">Sign Up</a></p>
+        </div>
+
+
+    </div>
+
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
